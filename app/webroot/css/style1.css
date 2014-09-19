@@ -1,0 +1,165 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: arial;
+    font-size: 13px;
+    color: #333333;
+    line-height: 20px;
+    border-top: 4px solid #143345;
+    background: url(../images/bg.png) no-repeat;
+}
+input[type=text]{
+}
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea{
+    border: 1px solid #cccccc;
+    padding: 2px;
+    width: 225px;
+    height: 22px;
+}
+textarea{
+    width: 560px;
+    height: 170px;
+}
+.clear{
+    clear: both;
+}
+#wrapp{
+    width: 960px;
+    margin: 0 auto;
+}
+#header{
+    
+}
+#logo{
+    padding-top: 40px;
+}
+.logo-left{
+    float: left;
+    width: 300px;
+}
+.logo-right{
+    float: right;
+    width: 600px;
+    text-align: right
+}
+
+#menu{
+    height: 24px;
+    padding: 10px 0;
+    background: url(../images/bg_nav.jpg) repeat-x scroll left top;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 15px;
+}
+#search{
+    background: url(../images/bg_box.jpg) repeat-x scroll center top #FFFFFF;
+    border: 1px solid #cccccc;
+    border-radius: 6px 6px 6px 6px;
+    min-height: 40px;
+    padding: 15px;
+    margin: 20px 0;
+}
+#search input[type=text],
+#search select{
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    height: 30px;
+    margin-right: 40px;
+    padding: 2px 6px;
+    width: 300px;
+}
+#search select{
+    height: 36px;
+}
+#search input[type=submit]{
+    height: 36px;
+    width: 100px;
+}
+#content{
+    margin: 20px 0;
+}
+#main-content{
+    float: left;
+    width: 660px;
+    background: url(../images/bg_box.jpg) repeat-x scroll center top #FFFFFF;
+    border: 1px solid #cccccc;
+    border-radius: 6px 6px 6px 6px;
+    min-height: 40px;
+    padding: 15px;
+    margin: 0;
+}
+#sidebar{
+    width: 250px;
+    float: right;
+    margin: 0;
+}
+.sidebar-box{
+    background: url(../images/bg_box.jpg) repeat-x scroll center top #FFFFFF;
+    border: 1px solid #cccccc;
+    border-radius: 6px 6px 6px 6px;
+    min-height: 40px;
+    padding: 15px;
+    margin: 0 0 15px 0;    
+}
+#sidebar h3{
+    margin: 0 0 15px 0;
+}
+#footer{
+    border-top: 6px solid #143345;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.login label{
+    display: block;
+    float: left;
+    width: 80px;
+}
+.login .input{
+    margin-bottom: 10px;
+}
+.login .btn{
+    margin: 30px 0 0 80px;
+}
+.register .date select{
+    width: 100px;
+}
+.message{
+    color: #ff0000;
+}
+.thumb{
+    float: left;
+    height: 160px;
+    margin-right: 20px;
+    width: 300px;
+}
+.thongtin .info h4{
+    font-size: 18px;
+    margin: 0 0 15px 0;
+}
+.thongtin .info .lienhe{
+    margin: 0 0 5px 0;
+}
+.list-title a{
+    text-decoration: none;
+    color: #1C8F02;
+    font-weight: bold;
+}
+.list-title a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
